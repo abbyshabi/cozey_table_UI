@@ -9,7 +9,6 @@ export const MenuBar = ({
 }) => {
   const [activeId, setActiveId] = useState(null)
 
-  console.log(activeId, selectedCategory);
   const handleMenuItemClick = category => {
     setActiveId(category)
     onMenuItemClick(category)

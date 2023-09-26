@@ -1,18 +1,4 @@
-@font-face {
-  font-family: 'Larsseit';
-  src: url('./Larsseit/Larsseit-Medium.otf') format('otf'),
-       url('./Larsseit/Larsseit-Bold.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'Quincy Regular';
-  src: url('./Fonts/Quincy/quincycf-regularitalic.otf') format('otf'),
-       url('./Fonts/Quincy/quincycf-bold.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
   margin: 0;

@@ -34,17 +34,13 @@
 .page_category {
   font-family: "Quincy-Regular";
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 0;
   color: rgb(43, 44, 110);
 }
 
 .page_text{
-  line-height: 16px;
-  font-size: 18px;
-  font-family: "Larsseit Medium";
   color: rgb(25, 20, 43);
-  font-weight: 550;
   margin-top:0;
 }
 

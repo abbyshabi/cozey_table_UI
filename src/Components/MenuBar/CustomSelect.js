@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
 const CustomSelect = ({ options, selectedOption, onOptionSelect, scrollToSelector }) => {
-   console.log(selectedOption, 'custom', scrollToSelector)
   const [isOpen, setIsOpen] = useState(false);
   const selectRef = useRef(null);
 

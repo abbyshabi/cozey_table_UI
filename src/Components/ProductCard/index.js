@@ -15,11 +15,7 @@ const colorScheme = {
 
 const ProductCard = ({ product }) => {
  
-
-  console.log(toCamelCase(product?.name?.toLowerCase()))
   const colorCode = colorScheme[toCamelCase(product?.name?.toLowerCase())];
-
-
   return (
     <div className='product-card'>
       <img

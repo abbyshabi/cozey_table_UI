@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: local('Larsseit'),
+         url('./Fonts/Larsseit/Larsseit.otf') format('opentype'),
+         url('./fonts/CustomFont1Name.woff2') format('opentype');
+}
+@font-face {
+    font-family: 'QuincyCFBold';
+    src: local('QuincyCFBold'),
+         url('./Fonts/QuincyCF/QuincyCF-Bold.otf') format('opentype'),
+         url('./Fonts/QuincyCF/quincybold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Larsseit Medium';
+    src: local('Larsseit Medium'),
+         url('./Fonts/Larsseit/Larsseit-Medium.otf') format('opentype'),
+         url('./Fonts/Larsseit/Larsseit.otf') format('opentype'),
+}
+@font-face {
+    font-family: 'CustomFont2Name';
+    src: local('CustomFont2Name'),
+         url('./fonts/CustomFont2Name.woff') format('woff'),
+         url('./fonts/CustomFont2Name.woff2') format('woff2');
+}

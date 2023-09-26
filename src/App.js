@@ -3,7 +3,6 @@ import './App.css';
 import ProductCard from './Components/ProductCard';
 import { MenuBar } from './Components/MenuBar';
 import productsData from './data/tables.json';
-import './fontLoader';
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -44,10 +43,10 @@ function App() {
     <>
       <div className='product-grid'>
         <div className='page_header'>
-          <p className='page_category' style={{ fontFamily: 'Quincy' }}>
+          <p className='page_category' style={{ fontFamily: 'Quincy', fontSize: '44px', lineHeight: '44px'}}>
             Tables{' '}
           </p>
-          <p className='page_text' style={{ fontFamily: 'Larsseit-Medium' }}>
+          <p className='page_text' style={{ fontFamily: 'Larsseit Medium', lineHeight: '26px', fontSize: '18px' }}>
             {' '}
             A perfect pairing to your sofa{' '}
           </p>
