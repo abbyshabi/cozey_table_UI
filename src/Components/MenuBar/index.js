@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import './style.css'
 import CustomSelect from './CustomSelect'
 
-export const MenuBar = () => {
+export const MenuBar = ({ selectedCategory, onMenuItemClick }) => {
   const [activeId, setActiveId] = useState(null)
 
-  const handleMenuItemClick = id => {
-    setActiveId(id)
-  }
+  const handleMenuItemClick = category => {
+    setActiveId(category);
+    onMenuItemClick(category);
+  };
+  
 
   const options = ['Coffee Tables', 'Side Tables', 'Media Units', 'Table Sets']
 

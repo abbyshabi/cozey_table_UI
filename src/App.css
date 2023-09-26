@@ -31,7 +31,7 @@
 }
 
 .page_category {
-  font-family: "Quincy Regular";
+  font-family: "Quincy-Regular";
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 0;
@@ -79,8 +79,8 @@
   
   .product-list-container {
     max-width: 100%;
-    margin: 10px auto; /* Center the container horizontally */
+    margin: 10px auto;
     /* padding: 0 20px; Add 20px padding on both sides */
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    box-sizing: border-box; 
   }
 }

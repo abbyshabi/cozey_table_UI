@@ -8,14 +8,18 @@ const fontFiles = [
   `${process.env.PUBLIC_URL}/Fonts/Larsseit/Larsseit-Bold.otf`,
   `${process.env.PUBLIC_URL}/Fonts/Quincy/quincycf-medium.otf`,
   `${process.env.PUBLIC_URL}/Fonts/Larsseit/Larsseit-Bold.otf`,
-  // Add more font file paths if needed
+  
 ];
 
 console.log(fontFiles)
-// Load fonts using webfontloader
 WebFont.load({
-  custom: {
-    families: ['QuincyCF', 'Larsseit-Medium'], // Specify font family names
-    urls: fontFiles,        // Specify font file paths
-  },
-});
+    custom: {
+      families: ['Larsseit-Medium', 'Larsseit-Bold', 'QuincyCF-Medium'], // Specify font family names
+      urls: [
+        '/Fonts/Larsseit/Larsseit-Medium.otf',
+        '/Fonts/Larsseit/Larsseit-Bold.otf',   
+        '/Fonts/Quincy/quincycf-medium.otf',   
+      ],
+    },
+  });
+  
