@@ -1,21 +1,23 @@
 import React, { useState } from 'react'
 import './style.css'
 import ArrowIcon from '../ArrowIcon/index'
+import { toCamelCase } from '../../utils';
 
 const colorScheme = {
   espresso: '#2C1400',
   walnut: '#582F11',
-  oak: '#806517',
-  blackwood: '#000'
+  oak: 'rgb(221, 181, 134)',
+  blackwood: 'rgb(10, 4, 1)',
+  eclipse: 'rgb(29, 29, 29)',
+  twilight: 'rgb(153, 153, 153)',
+  solstice: 'rgb(248, 248, 248)'
 };
 
 const ProductCard = ({ product }) => {
-  const [colorOptionsVisible, setColorOptionsVisible] = useState(false)
+ 
 
-  const toggleColorOptions = () => {
-    setColorOptionsVisible(!colorOptionsVisible)
-  }
-  const colorCode = colorScheme[product?.name?.toLowerCase()];
+  console.log(toCamelCase(product?.name?.toLowerCase()))
+  const colorCode = colorScheme[toCamelCase(product?.name?.toLowerCase())];
 
 
   return (
@@ -38,7 +40,7 @@ const ProductCard = ({ product }) => {
           {product?.price} |{' '}
           <span className='customize'>
             {' '}
-            customize <ArrowIcon size={10} color='#19142B' direction='right' />
+            customise <ArrowIcon size={10} color='#19142B' direction='right' />
           </span>
         </p>
       </div>

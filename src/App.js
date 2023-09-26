@@ -13,7 +13,6 @@ function App() {
     setProducts(productsData);
   }, []);
 
-  // Create refs for each category section
   const coffeeRef = useRef(null);
   const sideRef = useRef(null);
   const mediaRef = useRef(null);

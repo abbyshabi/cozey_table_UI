@@ -5,6 +5,7 @@
   padding: 0 20px;
   box-sizing: border-box;
   margin-top: 10px;
+  color: rgb(43, 44, 110);
 }
 
 .product-category {
@@ -57,7 +58,7 @@
   .product-list.grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+   gap: 20px 0px
   }
   .product-category {
     font-size: 32px;
@@ -76,7 +77,7 @@
   
   .product-list-container {
     max-width: 100%;
-    margin: 10px auto;
+    /* margin: 10px auto; */
     box-sizing: border-box; 
   }
 }

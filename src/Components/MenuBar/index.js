@@ -9,6 +9,7 @@ export const MenuBar = ({
 }) => {
   const [activeId, setActiveId] = useState(null)
 
+  console.log(activeId, selectedCategory);
   const handleMenuItemClick = category => {
     setActiveId(category)
     onMenuItemClick(category)
@@ -24,7 +25,7 @@ export const MenuBar = ({
           <a
             href='#coffeeTables'
             className={`menu_text ${
-              activeId === 'coffeeTables' ? 'active-link menu_text' : ''
+              activeId === 'coffee' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('coffee')}
           >
@@ -33,7 +34,7 @@ export const MenuBar = ({
           <a
             href='#sideTables'
             className={`menu_text ${
-              activeId === 'sideTables' ? 'active-link menu_text' : ''
+              activeId === 'side' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('side')}
           >
@@ -42,7 +43,7 @@ export const MenuBar = ({
           <a
             href='#mediaTables'
             className={`menu_text ${
-              activeId === 'mediaUnits' ? 'active-link menu_text' : ''
+              activeId === 'media' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('media')}
           >
@@ -51,7 +52,7 @@ export const MenuBar = ({
           <a
             href='#tableSets'
             className={`menu_text ${
-              activeId === 'tableSets' ? 'active-link menu_text' : ''
+              activeId === 'table_sets' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('table_sets')}
           >
