@@ -19,8 +19,6 @@ function App() {
 
   const handleMenuItemClick = category => {
     setSelectedCategory(category);
-    console.log(category)
-
     switch (category) {
       case 'coffee':
         coffeeRef.current.scrollIntoView({ behavior: 'smooth' });

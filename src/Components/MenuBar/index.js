@@ -5,15 +5,16 @@ import CustomSelect from './CustomSelect'
 export const MenuBar = ({
   selectedCategory,
   onMenuItemClick,
-  scrollToSelector
 }) => {
   const [activeId, setActiveId] = useState(null)
+  const [scrollToSelector, setScrollToSelector] = useState();
 
   const handleMenuItemClick = category => {
     setActiveId(category)
     onMenuItemClick(category)
+    
+    setScrollToSelector(scrollToSelector);
   }
-
 
   const options = ['Coffee Tables', 'Side Tables', 'Media Units', 'Table Sets']
 
@@ -24,27 +25,27 @@ export const MenuBar = ({
           <a
             href='#coffeeTables'
             className={`menu_text ${
-              activeId === 'coffee' ? 'active-link menu_text' : ''
+              activeId === 'coffee_tables' ? 'active-link menu_text' : ''
             }`}
-            onClick={() => handleMenuItemClick('coffee')}
+            onClick={() => handleMenuItemClick('coffee_tables')}
           >
             Coffee Tables
           </a>
           <a
             href='#sideTables'
             className={`menu_text ${
-              activeId === 'side' ? 'active-link menu_text' : ''
+              activeId === 'side_tables' ? 'active-link menu_text' : ''
             }`}
-            onClick={() => handleMenuItemClick('side')}
+            onClick={() => handleMenuItemClick('side_tables')}
           >
             Side Tables
           </a>
           <a
-            href='#mediaTables'
+            href='#mediaUnits'
             className={`menu_text ${
-              activeId === 'media' ? 'active-link menu_text' : ''
+              activeId === 'media_units' ? 'active-link menu_text' : ''
             }`}
-            onClick={() => handleMenuItemClick('media')}
+            onClick={() => handleMenuItemClick('media_units')}
           >
             Media Units
           </a>
@@ -62,8 +63,8 @@ export const MenuBar = ({
         <CustomSelect
           options={options}
           selectedOption={selectedCategory}
-          onOptionSelect={onMenuItemClick}
-          scrollToSelector={scrollToSelector}
+          onOptionSelect={handleMenuItemClick}
+          scrollToSelector={selectedCategory.toLowerCase().replace(' ', '_')}
         />
       </div>
     </div>
