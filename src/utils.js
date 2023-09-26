@@ -9,4 +9,15 @@ export function toCamelCase(inputString) {
   
     return words.join('');
   }
+
+  export function formatCategoryIfSnakeCase(category) {
+    if (category.includes('_')) {
+      return category
+        .split('_')
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' '); 
+    } else {
+      return category;
+    }
+  }
   

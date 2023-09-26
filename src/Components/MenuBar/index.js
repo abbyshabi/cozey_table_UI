@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './style.css'
 import CustomSelect from './CustomSelect'
+import { formatCategoryIfSnakeCase } from '../../utils'
 
 export const MenuBar = ({
   selectedCategory,
@@ -9,12 +10,11 @@ export const MenuBar = ({
   const [activeId, setActiveId] = useState(null)
   const [scrollToSelector, setScrollToSelector] = useState();
 
-  const handleMenuItemClick = category => {
-    setActiveId(category)
-    onMenuItemClick(category)
-    
-    setScrollToSelector(scrollToSelector);
-  }
+  const handleMenuItemClick = (category) => {
+    setActiveId(category);
+    onMenuItemClick(category);
+  };
+  
 
   const options = ['Coffee Tables', 'Side Tables', 'Media Units', 'Table Sets']
 
@@ -62,9 +62,8 @@ export const MenuBar = ({
 
         <CustomSelect
           options={options}
-          selectedOption={selectedCategory}
+          selectedOption={formatCategoryIfSnakeCase(selectedCategory)}
           onOptionSelect={handleMenuItemClick}
-          scrollToSelector={selectedCategory.toLowerCase().replace(' ', '_')}
         />
       </div>
     </div>

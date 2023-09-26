@@ -20,13 +20,13 @@ function App() {
   const handleMenuItemClick = category => {
     setSelectedCategory(category);
     switch (category) {
-      case 'coffee':
+      case 'coffee_tables':
         coffeeRef.current.scrollIntoView({ behavior: 'smooth' });
         break;
-      case 'side':
+      case 'side_tables':
         sideRef.current.scrollIntoView({ behavior: 'smooth' });
         break;
-      case 'media':
+      case 'media_units':
         mediaRef.current.scrollIntoView({ behavior: 'smooth' });
         break;
       case 'table_sets':
