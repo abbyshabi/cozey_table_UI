@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Larsseit';
+  src: url('./Larsseit/Larsseit-Medium.otf') format('otf'),
+       url('./Larsseit/Larsseit-Bold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quincy Regular';
+  src: url('./Fonts/Quincy/quincycf-regularitalic.otf') format('otf'),
+       url('./Fonts/Quincy/quincycf-bold.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family:'Larsseit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

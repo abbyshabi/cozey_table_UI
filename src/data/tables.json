@@ -1,0 +1,301 @@
+[
+    {
+        "category": "Coffee Tables",
+        "products": [
+            {
+                "name": "Oak",
+                "description": "Stella Coffee Table - 1 Unit",
+                "price": "$210 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_1_28381075.webp"
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Coffee Table - 2 Units",
+                "price": "$420 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_2_28381081.webp"
+            },
+            {
+                "name": "Black Wood",
+                "description": "Pluto Coffee Table",
+                "price": "$135 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_3_28381089.webp"
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Coffee Table - 3 Units",
+                "price": "$630 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_4_28381113.webp"
+            },
+            {
+                "name": "Espresso",
+                "description": "Pluto Coffee Table",
+                "price": "$135 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_5_28381124.webp"
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Coffee Table - 1 Unit",
+                "price": "$210 or financing",
+                "customizable": true,
+                "imageUrl": "STELLA LIFT-TOP 1 CLOSED CONFIG 1 (1).webp"
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Coffee Table - 2 Units",
+                "price": "$420 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_6_28381143.webp"
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Coffee Table - 3 Units",
+                "price": "$630 or financing",
+                "customizable": true,
+                "imageUrl": "STELLA TV 3 HOLE (1).webp"
+            }
+        ]
+    },
+    {
+        "category": "Side Tables",
+        "products": [
+            {
+                "name": "Eclipse",
+                "description": "Solis Adjustable Table",
+                "price": "$180 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_7_28381247.webp"
+            },
+            {
+                "name": "Twilight",
+                "description": "Solis Adjustable Table",
+                "price": "$180 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_8_28381358.webp"
+            },
+            {
+                "name": "Solstice",
+                "description": "Solis Adjustable Table",
+                "price": "$180 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_9_28381369.webp"
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Coffee Table - 1 Unit",
+                "price": "$210 or financing",
+                "customizable": true,
+                "imageUrl": "STELLA LIFT-TOP 1 CLOSED CONFIG 1 (1).webp"
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Coffee Table - 1 Unit",
+                "price": "$210 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_1_28381075 (1).webp"
+            },
+            {
+                "name": "Espresso",
+                "description": "Pluto Side Table",
+                "price": "$85 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_10_28381395.webp"
+            },
+            {
+                "name": "Black Wood",
+                "description": "Pluto Side Table",
+                "price": "$85 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_11_28381418.webp"
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 1 Unit | No Door",
+                "price": "$145 or financing",
+                "customizable": true,
+                "imageUrl": "STELLA TV 1 HOLE.webp"
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 1 Unit | No Door",
+                "price": "$145 or financing",
+                "customizable": true,
+                "imageUrl": "STELLA TV 1 HOLE (2).webp"
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 1 Unit | With Door",
+                "price": "$165 or financing",
+                "customizable": true,
+                "imageUrl": "STELLA TV 1 DOOR.webp"
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 1 Unit | With Door",
+                "price": "$165 or financing",
+                "customizable": true,
+                "imageUrl": "tinywow_12_28381421.webp"
+            }
+        ]
+    },
+    {
+        "category": "Media Units",
+        "products": [
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 3 Units",
+                "price": "$475 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 2 Units | With Doors",
+                "price": "$330 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 1 Unit | With Door",
+                "price": "$165 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 1 Unit | No Door",
+                "price": "$145 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 2 Units",
+                "price": "$310 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 2 Units | No Doors",
+                "price": "$290 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 3 Units",
+                "price": "$475 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 3 Units | No Doors",
+                "price": "$435 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 4 Units",
+                "price": "$620 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 4 Units | No Doors",
+                "price": "$580 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 2 Units",
+                "price": "$310 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 4 Units",
+                "price": "$620 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Media Unit - 3 Units | With Doors",
+                "price": "$495 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Media Unit - 4 Units | With Doors",
+                "price": "$660 or financing",
+                "customizable": true,
+                "imageUrl": ""
+            }
+        ]
+    },
+    {
+        "category": "Table Sets",
+        "products": [
+            {
+                "name": "Black Wood",
+                "description": "Pluto Table Set | 1 Coffee Table & 1 Side Table",
+                "price": "$195",
+                "savings": "Save 10%",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Espresso",
+                "description": "Pluto Table Set | 1 Coffee Table & 2 Side Tables",
+                "price": "$255",
+                "savings": "Save 15%",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Eclipse",
+                "description": "Pair of Solis Adjustable Tables",
+                "price": "$320",
+                "savings": "Save 10%",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Table Set | 2-Unit Media & 2-Unit Coffee Table",
+                "price": "$505",
+                "savings": "Save 15%",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Walnut",
+                "description": "Stella Table Set | 2-Unit Media & 1 Side Table",
+                "price": "$465",
+                "savings": "Save 10%",
+                "customizable": true,
+                "imageUrl": ""
+            },
+            {
+                "name": "Oak",
+                "description": "Stella Table Set | 3-Unit Media & 2-Unit Coffee Table",
+                "price": "$715",
+                "savings": "Save 20%",
+                "customizable": true,
+                "imageUrl": ""
+            }
+        ]
+    }
+]
