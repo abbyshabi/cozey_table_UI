@@ -2,14 +2,18 @@ import React, { useState } from 'react'
 import './style.css'
 import CustomSelect from './CustomSelect'
 
-export const MenuBar = ({ selectedCategory, onMenuItemClick }) => {
+export const MenuBar = ({
+  selectedCategory,
+  onMenuItemClick,
+  scrollToSelector
+}) => {
   const [activeId, setActiveId] = useState(null)
 
   const handleMenuItemClick = category => {
-    setActiveId(category);
-    onMenuItemClick(category);
-  };
-  
+    setActiveId(category)
+    onMenuItemClick(category)
+  }
+
 
   const options = ['Coffee Tables', 'Side Tables', 'Media Units', 'Table Sets']
 
@@ -18,36 +22,36 @@ export const MenuBar = ({ selectedCategory, onMenuItemClick }) => {
       <div id='myHeader' className='myHeader'>
         <div class='menu_items fTXQBa'>
           <a
-            href='#coffee'
+            href='#coffeeTables'
             className={`menu_text ${
-              activeId === 'section1 ' ? 'active-link menu_text' : ''
+              activeId === 'coffeeTables' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('coffee')}
           >
             Coffee Tables
           </a>
           <a
-            href='#side'
+            href='#sideTables'
             className={`menu_text ${
-              activeId === 'section1 ' ? 'active-link menu_text' : ''
+              activeId === 'sideTables' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('side')}
           >
             Side Tables
           </a>
           <a
-            href='#media'
+            href='#mediaTables'
             className={`menu_text ${
-              activeId === 'section1 ' ? 'active-link menu_text' : ''
+              activeId === 'mediaUnits' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('media')}
           >
             Media Units
           </a>
           <a
-            href='#table_sets'
+            href='#tableSets'
             className={`menu_text ${
-              activeId === 'section1 ' ? 'active-link menu_text' : ''
+              activeId === 'tableSets' ? 'active-link menu_text' : ''
             }`}
             onClick={() => handleMenuItemClick('table_sets')}
           >
@@ -55,7 +59,12 @@ export const MenuBar = ({ selectedCategory, onMenuItemClick }) => {
           </a>
         </div>
 
-        <CustomSelect options={options} />
+        <CustomSelect
+          options={options}
+          selectedOption={selectedCategory}
+          onOptionSelect={onMenuItemClick}
+          scrollToSelector={scrollToSelector}
+        />
       </div>
     </div>
   )

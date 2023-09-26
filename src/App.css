@@ -1,9 +1,10 @@
 /* Add container styles */
 .product-list-container {
   max-width: 95%;
-  margin: 10px auto; /* Center the container horizontally */
-  /* padding: 0 20px; Add 20px padding on both sides */
-  box-sizing: border-box; /* Ensure padding is included in the width */
+  margin: 10px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
 }
 
 .product-category {
@@ -23,7 +24,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-/* Default styling for large screens (3 columns) */
 .product-list.grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -52,15 +52,12 @@
   margin-bottom: 30px;
 }
 
-/* Adjust for tablets and phones (2 columns) */
 @media (max-width: 768px) {
   .product-list.grid-3,
   .product-list.grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    /* gap: 10px; */
-    /* padding: 16px 24px; */
   }
   .product-category {
     font-size: 32px;
@@ -80,7 +77,6 @@
   .product-list-container {
     max-width: 100%;
     margin: 10px auto;
-    /* padding: 0 20px; Add 20px padding on both sides */
     box-sizing: border-box; 
   }
 }

@@ -11,7 +11,6 @@ const fontFiles = [
   
 ];
 
-console.log(fontFiles)
 WebFont.load({
     custom: {
       families: ['Larsseit-Medium', 'Larsseit-Bold', 'QuincyCF-Medium'], // Specify font family names

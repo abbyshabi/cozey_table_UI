@@ -5,9 +5,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    width: 420px; /* Adjust as needed */
-    padding: 1px; /* Add padding as needed */
-    background-color: #fff; /* Add background color or other styling */
+    width: 420px;
+    padding: 1px;
+    background-color: #fff; 
 }
 
 .product-image {

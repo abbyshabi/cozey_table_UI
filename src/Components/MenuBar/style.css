@@ -3,6 +3,12 @@
     top: 0px;
     z-index: 9999;
 }
+
+.active-link {
+  color: #fff; 
+  border-bottom: 2px solid #fff;
+}
+
 .myHeader {
     background-color: rgb(25, 20, 43);
     position: sticky;
@@ -14,9 +20,7 @@
     -webkit-box-align: center;
     align-items: center;
     height: 60px;
-    /* padding: 20px 10px; */
-
-}
+  }
 
 .menu_text {
     display: inline-block;

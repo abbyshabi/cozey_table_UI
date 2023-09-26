@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 
-const CustomSelect = ({ options }) => {
+const CustomSelect = ({ options, selectedOption, onOptionSelect, scrollToSelector }) => {
+   console.log(selectedOption, 'custom', scrollToSelector)
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(options[0]);
   const selectRef = useRef(null);
 
   useEffect(() => {
@@ -24,8 +24,14 @@ const CustomSelect = ({ options }) => {
   };
 
   const handleOptionClick = (option) => {
-    setSelectedOption(option);
     setIsOpen(false);
+
+    onOptionSelect(option);
+    
+    const section = document.querySelector(`#${scrollToSelector}`);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (

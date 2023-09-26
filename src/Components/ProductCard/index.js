@@ -2,11 +2,7 @@ import React, { useState } from 'react'
 import './style.css'
 
 const ProductCard = ({ product }) => {
-  const baseImageUrl = '../../assets/images/' // Adjust the path as needed
- 
   const [colorOptionsVisible, setColorOptionsVisible] = useState(false)
-
-  console.log(baseImageUrl + product?.imageUrl)
 
  
   const toggleColorOptions = () => {
