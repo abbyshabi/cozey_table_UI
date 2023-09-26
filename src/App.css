@@ -10,7 +10,7 @@
   font-family: "Quincy Regular";
   font-size: 44px;
   font-weight: 700;
-  margin-left: 30px;
+  margin-left: 40px;
   color: rgb(43, 44, 110);
   margin-bottom: -10px;
 }
@@ -30,6 +30,28 @@
   gap: 0px;
 }
 
+.page_category {
+  font-family: "Quincy Regular";
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: rgb(43, 44, 110);
+}
+
+.page_text{
+  line-height: 16px;
+  font-size: 18px;
+  font-family: "Larsseit Medium";
+  color: rgb(25, 20, 43);
+  font-weight: 550;
+  margin-top:0;
+}
+
+.page_header {
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
+
 /* Adjust for tablets and phones (2 columns) */
 @media (max-width: 768px) {
   .product-list.grid-3,
@@ -37,16 +59,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    gap: 10px;
-    padding: 16px 24px;
+    /* gap: 10px; */
+    /* padding: 16px 24px; */
   }
   .product-category {
-    font-size: 42px;
+    font-size: 32px;
     text-align: center;
-    margin: auto auto;
+    margin: auto 5px;
   }
+
+  .page_header {
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .page_category{
+    font-size: 42px;
+  }
+  
   .product-list-container {
-    max-width: 50%;
+    max-width: 100%;
     margin: 10px auto; /* Center the container horizontally */
     /* padding: 0 20px; Add 20px padding on both sides */
     box-sizing: border-box; /* Ensure padding is included in the width */
