@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ProductCard from "./Components/ProductCard"
+import {MenuBar} from './Components/MenuBar'
 import productsData from './data/tables.json';
 
 function App() {
@@ -13,8 +14,11 @@ function App() {
 
   
   return (
+    <>
+    
     <div className="product-grid">
       <h1 className='product-category'>Tables</h1>
+      <MenuBar/>
       {products.map((category, index) => (
         <div key={index} className="category">
           <div className="product-list-container">
@@ -32,6 +36,7 @@ function App() {
         </div>
       ))}
     </div>
+    </>
   );
 }
 
